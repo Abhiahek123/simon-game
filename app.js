@@ -67,7 +67,7 @@ function checkAns(idx) {
     setTimeout(levelUp, 1000);
     }  
     } else {
-    playSound("wrong"); // alag sound  
+    playSound("wrong");  
     h2.innerHTML = `Game Over! Your score was <b> ${level} </b> <br>  Press any key to start` ;
     document.querySelector("body").style.backgroundColor = "red";
     setTimeout(function() {
